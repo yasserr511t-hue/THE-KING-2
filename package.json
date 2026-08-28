@@ -1,0 +1,34 @@
+{
+  "name": "the-king-2",
+  "version": "1.0.0",
+  "description": "Production-ready Discord.js v14 community bot with moderation, tickets, welcome system, logging, AutoMod, giveaways, economy, and levels.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "dashboard": "node src/dashboard/server.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "community",
+    "moderation",
+    "tickets"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "mongodb": "^6.3.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "axios": "^1.6.5",
+    "jsonwebtoken": "^9.1.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {}
+}
